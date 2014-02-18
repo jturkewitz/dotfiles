@@ -1,0 +1,21 @@
+{
+//gSystem->Load("libFWCoreFWLite.so");
+//AutoLibraryLoader::enable();
+//gSystem->Load("libDataFormatsFWLite.so");
+gROOT->LoadMacro("/home/user1/turkewitz/tdrStyle.C");
+gStyle->SetPalette(1);
+gStyle->SetHistFillColor(kWhite);
+gStyle->SetFrameFillColor(kWhite);
+gStyle->SetCanvasColor(kWhite);
+gStyle->SetPadColor(kWhite);
+gStyle->SetTitleFillColor(kWhite);
+gStyle->SetStatColor(kWhite);
+gStyle->SetFillStyle(kWhite);
+gStyle->SetFrameFillStyle(0);
+gStyle->SetFrameBorderMode(0);
+gStyle->SetCanvasBorderMode(0);
+gStyle->SetPadBorderMode(0);
+gStyle->SetOptStat(2222211);
+gStyle->SetOptFit(111);
+//using namespace RooFit;
+}
